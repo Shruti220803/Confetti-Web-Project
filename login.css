@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    overflow: hidden;
+}
+.confetti{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    font-size: 30px;
+
+}
+
+.confetti a{
+    text-decoration: none;
+    color: black;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form{
+    position: relative;
+    top: -3.5rem;
+    margin: auto;
+    text-align: center;
+}
+
+.form>h1{
+    font-size: 3rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+button{
+    padding: 1.2rem;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    font-size: large;
+}
+
+button[type="google"]{
+    background-color: rgb(106,140,255);
+}
+
+.fa-google{
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    vertical-align: bottom;
+}
+
+.fa-chevron-right{
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    vertical-align: bottom;
+}
+
+.or{
+    color: rgb(134,132,137);
+    margin-top: 0.5rem;
+}
+
+.fa-envelope, .fa-lock{
+    display: inline;
+    margin-left: 1rem;
+    color: rgb(134,132,137);
+}
+
+input{
+    width: 30vw;
+    height: 7vh;
+    border: none;
+    background-color: rgb(246,246,246);
+    padding-left: 0.1rem;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+input:focus{
+    outline: none;
+    border: none;
+}
+
+input::placeholder{
+    color: rgb(134,132,137);
+}
+
+.input-form{
+    background-color: rgb(246,246,246);
+    margin-top: 1rem;
+    border-radius: 50px;
+}
+
+form p{
+    text-align: right;
+    font-size: 0.8rem;
+}
+
+form p a{
+    text-decoration: none;
+    color: rgb(134,132,137);
+}
+
+
+button[type="login"]{
+    background-color: rgb(235,47,94);
+    width: 24vw;
+    margin-top: 1rem;
+}
+
+form+p{
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    word-spacing: 1px;
+}
+
+form+p a{
+    text-decoration: none;
+    color: red;
+}
+
+
+.image img{
+    transform: translateY(-8%);
+    min-width: 35vw;
+    max-width: 40vw;
+    max-height: 100vh;
+}
